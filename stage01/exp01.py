@@ -1,2 +1,6 @@
-# portfoliage
-Все мои проекты с начала изучения Python и до нашего времени.
+lst = []
+
+for i in range(1, 1000):
+  lst.append(i // 2)
+  
+print(*lst)
